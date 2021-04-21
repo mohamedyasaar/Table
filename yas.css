@@ -1,0 +1,31 @@
+table {
+    border: 5px solid red;
+border-collapse: collapse; }
+table th{
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    font-weight: bold; font-size: 15px;
+}
+thead { 
+    background-color: #bbb;
+}
+thead th 
+{ border-bottom: 1px solid #ccc;}
+tfoot { 
+    background-color: #ccc;}
+tfoot th {
+     border-top: 1px solid #ccc;}
+table td{
+    font-size: 13px;
+    text-align: center;
+    padding: 5px;
+}
+table tbody tr:hover{
+    background-color:green;
+}
+table tbody tr:hover td:hover{
+    background-color: #333;
+    color: white;
+}
+
